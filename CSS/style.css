@@ -1,4 +1,21 @@
+body{
+    background-color: grey;
+}
+
+/* pet header */
+header{
+    line-height: 50px;
+}
+
 .container{
+    background-color: white;
     width: 90%;
     margin: auto;
+}   
+
+.whiteBG{
+    background-color: white;
 }
+ .inline{
+    display: inline-block;
+} 
