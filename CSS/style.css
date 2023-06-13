@@ -6,8 +6,11 @@ body{
     background-color: white;
     width: 90%;
     margin: 50px auto ;
+    padding: 50px;
     border-radius: 5px;
     min-height: 300px;
+    /* box sizing toglie la dimensione a padding e border */
+    box-sizing: border-box;
 }
 
 /* pet header */
@@ -19,7 +22,6 @@ header{
 }
 
 /* per navigator */
-
 nav{
 border-bottom: 1px solid  gray;
 
@@ -37,7 +39,21 @@ border-bottom: 1px solid  gray;
 
     line-height: 30px;
     text-align: center;
+}
 
+/* per main */
+
+.circle{
+    border: 1px solid;
+    border-radius: 50%;
+}
+.contentRed{
+    color: red;
+    border-color: red;
+}
+.contentGreen{
+    color: green;
+    border-color: green;
 }
 
 .blueBtt{
