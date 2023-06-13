@@ -23,17 +23,18 @@ header{
 
 /* per navigator */
 nav{
-border-bottom: 1px solid  gray;
-
+    border-bottom: 1px solid  gray;
+    
 }
 .button{
+    box-sizing: border-box;
     display: inline-block;
     min-height: 30px;
     min-width: 100px;
-
+    
     margin: 5px;
     padding: 5px;
-
+    
     border: 1px solid;
     border-radius: 5px;
 
@@ -41,8 +42,22 @@ border-bottom: 1px solid  gray;
     text-align: center;
 }
 
+.blueBtt{
+    color: white;
+    background-color: #47ADF1;
+    border-color: #47ADF1;
+    border-width:5px;
+}
+.whiteBtt{
+    color: lightgrey;
+    background-color: white;
+    border-color: lightgrey;
+    
+}
+
 /* per main */
 .frecce{
+    /* da mettere le frecce allo stesso livello degli altri elementi */
     list-style-type: "\1F837" ;
     padding: 0px;
 }
@@ -58,27 +73,81 @@ border-bottom: 1px solid  gray;
     line-height: 15px;
     text-align: center;
 }
-
-.contentRed{
+.contentXX{
     color: red;
     border-color: red;
 }
-.contentGreen{
+.contentXX:after{
+    content: "\2716";
+}
+
+.contentVV{
     color: green;
     border-color: green;
 }
+.contentVV:after{
+    content: "\2713";
+}
 
-.blueBtt{
+/* da mettere tutti i labels in un css a parte */
+.lable{
+    box-sizing: border-box;
+    display: inline-block;
+    min-height: 20px;
+    min-width: 20px;
+    
+    margin: 2px;
+    padding: 1px 20px;
+    
+    border: none;
+    border-radius: 5px;
+
+    line-height: 20px;
+    text-align: center;
+    font-size: small;
+
+}
+.lableEditorial{
     color: white;
     background-color: #47ADF1;
-    border-color: #47ADF1;
-    border-width:5px;
 }
-.whiteBtt{
-    color: lightgrey;
-    background-color: white;
-    border-color: lightgrey;
-    
+.lableEditorial::after{
+    content: "Editorial"
+}
+.lableQ1{
+    color: white;
+    background-color: #f147bb;
+}
+.lableQ1::after{
+    content: " Q1 Goals"
+}
+.lableRecruiting{
+    color: white;
+    background-color: #60e966;
+}
+.lableRecruiting::after{
+    content: "Recruiting"
+}
+.lableMobile{
+    color: white;
+    background-color: #f0c149;
+}
+.lableMobile::after{
+    content: "Mobile"
+}
+.lableWeb{
+    color: white;
+    background-color: #ff0280;
+}
+.lableWeb::after{
+    content: "Web"
+}
+.lableSales{
+    color: white;
+    background-color: #15ff00;
+}
+.lableSales::after{
+    content: "Sales"
 }
 
 .whiteBG{
