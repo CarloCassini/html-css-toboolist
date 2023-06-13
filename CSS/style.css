@@ -42,11 +42,23 @@ border-bottom: 1px solid  gray;
 }
 
 /* per main */
+.frecce{
+    list-style-type: "\1F837" ;
+    padding: 0px;
+}
 
 .circle{
+    display: inline-block;
     border: 1px solid;
     border-radius: 50%;
+    
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
 }
+
 .contentRed{
     color: red;
     border-color: red;
