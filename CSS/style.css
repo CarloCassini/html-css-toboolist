@@ -14,31 +14,41 @@ body{
 header{
     line-height: 50px;
 }
+.logo{
+    vertical-align: middle;
+}
 
 /* per navigator */
 
 nav{
-    border-bottom: color:gray solid 1px;
+border-bottom: 1px solid  gray;
+
 }
 .button{
     display: inline-block;
     min-height: 30px;
     min-width: 100px;
-    margin: 10px;
-    padding: 10px auto;
-    border: 1px;
-    border-radius: 2px;
+
+    margin: 5px;
+    padding: 5px;
+
+    border: 1px solid;
+    border-radius: 5px;
+
+    line-height: 30px;
+    text-align: center;
+
 }
 
 .blueBtt{
     color: white;
     background-color: #47ADF1;
     border-color: #47ADF1;
+    border-width:5px;
 }
 .whiteBtt{
     color: lightgrey;
-    background-color: blueviolet;
-    /* background-color: white; */
+    background-color: white;
     border-color: lightgrey;
     
 }
