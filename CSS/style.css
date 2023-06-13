@@ -1,5 +1,6 @@
 body{
     background-color: #F6F8F9;
+    margin: 0;
 }
 
 .container{
@@ -23,7 +24,7 @@ header{
 
 /* per navigator */
 nav{
-    border-bottom: 1px solid  gray;
+    border-bottom: 3px solid #F6F8F9;
     
 }
 .button{
